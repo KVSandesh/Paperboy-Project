@@ -7,6 +7,7 @@
         <methods>
           <include name="subscribe"/>
           <include name="openBrowser"/>
+          <include name="logout"/>
           <include name="close_Browser"/>
         </methods>
       </class> <!-- com.paperboy.testscripts.Subscribe -->

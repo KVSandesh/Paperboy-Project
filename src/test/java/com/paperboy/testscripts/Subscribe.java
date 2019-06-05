@@ -28,22 +28,19 @@ public class Subscribe {
 		homepageobject = PageFactory.initElements(driver, HomePageObject.class);
 	}
 
-	@Test(enabled = true)
+	@Test
 
 	public void login_2() throws Throwable {
 		String Username = excelLibrary.getExceldata("Login_data", 1, 0);
 		String Password = excelLibrary.getExceldata("Login_data", 1, 1);
-		//String ActualText = excelLibrary.getExceldata("URL", 0, 0);
+		// String ActualText = excelLibrary.getExceldata("URL", 0, 0);
 
 		homepageobject.loginToPaperboy_2(Username, Password);
 		Thread.sleep(3000);
-		// String ActName_login = homepageobject.Login_Name.getText();
-
-		// Assert.assertEquals(ActName_login, loginnameValue);
-		// Reporter.log("login_1 test verified successfully", true);
+	
 	}
 
-	@Test(enabled = true)
+	@Test
 	public void subscribe() throws Throwable {
 
 		homepageobject.Subcribe_Newspaper();
@@ -52,9 +49,20 @@ public class Subscribe {
 		String ActualText = homepageobject.ReadersPage_Verify_MyNewspaper.getText();
 		Assert.assertEquals(ExpectedText, ActualText);
 		Reporter.log("login_1 test verified successfully", true);
+		Thread.sleep(3000);
+		homepageobject.Logout();
 
 	}
 
+	/*@AfterMethod
+
+	public void logout() throws Throwable {
+
+		homepageobject.Logout();
+		Thread.sleep(2000);
+	}*/
+
+	
 	@AfterClass(enabled = true)
 	public void close_Browser() {
 		driver.close();

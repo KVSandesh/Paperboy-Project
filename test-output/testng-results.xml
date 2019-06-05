@@ -1,35 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="1" total="13" passed="12">
   <reporter-output>
     <line>
       <![CDATA[login_1 test verified successfully]]>
     </line>
+    <line>
+      <![CDATA[login_1 test verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[login_1 test verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[login_1 test verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[login_1 test verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[login_1 test verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[login_1 test verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[login_1 test verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[login_1 test verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[login_1 test verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[login_1 test verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[login_1 test verified successfully]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38227" started-at="2019-06-05T08:16:31Z" finished-at="2019-06-05T08:17:09Z">
+  <suite name="Default suite" duration-ms="92152" started-at="2019-06-05T09:08:10Z" finished-at="2019-06-05T09:09:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38227" started-at="2019-06-05T08:16:31Z" finished-at="2019-06-05T08:17:09Z">
-      <class name="com.paperboy.testscripts.Subscribe">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.paperboy.testscripts.Subscribe@5702b3b1]" name="openBrowser" is-config="true" duration-ms="12215" started-at="2019-06-05T08:16:31Z" finished-at="2019-06-05T08:16:43Z">
+    <test name="Default test" duration-ms="92152" started-at="2019-06-05T09:08:10Z" finished-at="2019-06-05T09:09:43Z">
+      <class name="com.paperboy.testscripts.Login">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="openBrowser" is-config="true" duration-ms="14692" started-at="2019-06-05T09:08:10Z" finished-at="2019-06-05T09:08:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="login_2()[pri:0, instance:com.paperboy.testscripts.Subscribe@5702b3b1]" name="login_2" duration-ms="7086" started-at="2019-06-05T08:16:43Z" finished-at="2019-06-05T08:16:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_2 -->
-        <test-method status="PASS" signature="subscribe()[pri:0, instance:com.paperboy.testscripts.Subscribe@5702b3b1]" name="subscribe" duration-ms="18669" started-at="2019-06-05T08:16:50Z" finished-at="2019-06-05T08:17:09Z">
+        <test-method status="PASS" signature="Negativecase_10()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="Negativecase_10" duration-ms="5976" started-at="2019-06-05T09:08:25Z" finished-at="2019-06-05T09:08:31Z">
           <reporter-output>
             <line>
               <![CDATA[login_1 test verified successfully]]>
             </line>
           </reporter-output>
-        </test-method> <!-- subscribe -->
-        <test-method status="PASS" signature="close_Browser()[pri:0, instance:com.paperboy.testscripts.Subscribe@5702b3b1]" name="close_Browser" is-config="true" duration-ms="212" started-at="2019-06-05T08:17:09Z" finished-at="2019-06-05T08:17:09Z">
+        </test-method> <!-- Negativecase_10 -->
+        <test-method status="PASS" signature="close_Login()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="close_Login" is-config="true" duration-ms="1120" started-at="2019-06-05T09:08:31Z" finished-at="2019-06-05T09:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Login -->
+        <test-method status="PASS" signature="Negativecase_11()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="Negativecase_11" duration-ms="5422" started-at="2019-06-05T09:08:32Z" finished-at="2019-06-05T09:08:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login_1 test verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negativecase_11 -->
+        <test-method status="PASS" signature="close_Login()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="close_Login" is-config="true" duration-ms="1083" started-at="2019-06-05T09:08:38Z" finished-at="2019-06-05T09:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Login -->
+        <test-method status="PASS" signature="Negativecase_12()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="Negativecase_12" duration-ms="5277" started-at="2019-06-05T09:08:39Z" finished-at="2019-06-05T09:08:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login_1 test verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negativecase_12 -->
+        <test-method status="PASS" signature="close_Login()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="close_Login" is-config="true" duration-ms="1093" started-at="2019-06-05T09:08:44Z" finished-at="2019-06-05T09:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Login -->
+        <test-method status="PASS" signature="Negativecase_3()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="Negativecase_3" duration-ms="5492" started-at="2019-06-05T09:08:45Z" finished-at="2019-06-05T09:08:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login_1 test verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negativecase_3 -->
+        <test-method status="PASS" signature="close_Login()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="close_Login" is-config="true" duration-ms="1110" started-at="2019-06-05T09:08:51Z" finished-at="2019-06-05T09:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Login -->
+        <test-method status="PASS" signature="Negativecase_4()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="Negativecase_4" duration-ms="5207" started-at="2019-06-05T09:08:52Z" finished-at="2019-06-05T09:08:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login_1 test verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negativecase_4 -->
+        <test-method status="PASS" signature="close_Login()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="close_Login" is-config="true" duration-ms="1078" started-at="2019-06-05T09:08:57Z" finished-at="2019-06-05T09:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Login -->
+        <test-method status="PASS" signature="Negativecase_5()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="Negativecase_5" duration-ms="5217" started-at="2019-06-05T09:08:58Z" finished-at="2019-06-05T09:09:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login_1 test verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negativecase_5 -->
+        <test-method status="PASS" signature="close_Login()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="close_Login" is-config="true" duration-ms="1189" started-at="2019-06-05T09:09:03Z" finished-at="2019-06-05T09:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Login -->
+        <test-method status="PASS" signature="Negativecase_6()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="Negativecase_6" duration-ms="5268" started-at="2019-06-05T09:09:04Z" finished-at="2019-06-05T09:09:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login_1 test verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negativecase_6 -->
+        <test-method status="PASS" signature="close_Login()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="close_Login" is-config="true" duration-ms="1133" started-at="2019-06-05T09:09:10Z" finished-at="2019-06-05T09:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Login -->
+        <test-method status="PASS" signature="Negativecase_7()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="Negativecase_7" duration-ms="5011" started-at="2019-06-05T09:09:11Z" finished-at="2019-06-05T09:09:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login_1 test verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negativecase_7 -->
+        <test-method status="PASS" signature="close_Login()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="close_Login" is-config="true" duration-ms="1216" started-at="2019-06-05T09:09:16Z" finished-at="2019-06-05T09:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Login -->
+        <test-method status="PASS" signature="Negativecase_8()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="Negativecase_8" duration-ms="5199" started-at="2019-06-05T09:09:17Z" finished-at="2019-06-05T09:09:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login_1 test verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negativecase_8 -->
+        <test-method status="PASS" signature="close_Login()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="close_Login" is-config="true" duration-ms="1123" started-at="2019-06-05T09:09:22Z" finished-at="2019-06-05T09:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Login -->
+        <test-method status="PASS" signature="Negativecase_9()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="Negativecase_9" duration-ms="5292" started-at="2019-06-05T09:09:23Z" finished-at="2019-06-05T09:09:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login_1 test verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negativecase_9 -->
+        <test-method status="PASS" signature="close_Login()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="close_Login" is-config="true" duration-ms="1194" started-at="2019-06-05T09:09:29Z" finished-at="2019-06-05T09:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Login -->
+        <test-method status="PASS" signature="a_Negativecase_1()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="a_Negativecase_1" duration-ms="5177" started-at="2019-06-05T09:09:30Z" finished-at="2019-06-05T09:09:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login_1 test verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- a_Negativecase_1 -->
+        <test-method status="PASS" signature="close_Login()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="close_Login" is-config="true" duration-ms="1088" started-at="2019-06-05T09:09:35Z" finished-at="2019-06-05T09:09:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Login -->
+        <test-method status="PASS" signature="b_Negativecase_2()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="b_Negativecase_2" duration-ms="5089" started-at="2019-06-05T09:09:36Z" finished-at="2019-06-05T09:09:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login_1 test verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- b_Negativecase_2 -->
+        <test-method status="PASS" signature="close_Login()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="close_Login" is-config="true" duration-ms="1086" started-at="2019-06-05T09:09:41Z" finished-at="2019-06-05T09:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Login -->
+        <test-method status="PASS" signature="close_Browser()[pri:0, instance:com.paperboy.testscripts.Login@4b952a2d]" name="close_Browser" is-config="true" duration-ms="245" started-at="2019-06-05T09:09:42Z" finished-at="2019-06-05T09:09:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_Browser -->
-      </class> <!-- com.paperboy.testscripts.Subscribe -->
+      </class> <!-- com.paperboy.testscripts.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
