@@ -1,0 +1,14 @@
+com\paperboy\pom\PressPageObject.class
+com\paperboy\pom\AboutUsPageObject.class
+com\paperboy\pom\PublisherPageObject.class
+com\paperboy\pom\SubscriptionPageObject.class
+com\paperboy\genericlibraries\Constants.class
+com\paperboy\pom\StatePageObject.class
+com\paperboy\genericlibraries\waitStatements.class
+com\paperboy\pom\NewspaperPageObject.class
+com\paperboy\pom\HomePageObject.class
+com\paperboy\genericlibraries\Browser.class
+com\paperboy\pom\SelectEditionPageObject.class
+com\paperboy\pom\SocialPageObject.class
+com\paperboy\genericlibraries\ExcelLibrary.class
+com\paperboy\pom\MagazinesPageObject.class
